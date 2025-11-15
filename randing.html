@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=402, user-scalable=no">
+    <link rel="stylesheet" href="./randing.css">
+    <title>ATIV Home</title>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="status-bar">
+            <div class="status-icons">
+                <img src="./img/status_bar.svg" alt="">
+            </div>
+        </div>
+
+        <div>
+        <img class="image_banner" onclick="window.location.href='./check.html'" src="./img/check_attendence.svg" style="margin-left: 20px;">
+        </div>
+
+        <div class="banner point-banner">
+            <div class="left">
+                <h3 style="color: white;">내 포인트</h3>
+                <button class="shop-btn" onclick="window.location.href='./store.html'">상점 가기</button>
+            </div>
+            <div class="point-right">
+                <span style="color: white; font-size: 12px;" class="link">사용 내역 ></span>
+                <h2 class="point-value">12,159P</h2>
+            </div>
+        </div>
+
+        <h2 class="betting-title">BETTING NOW!</h2>
+
+        <div class="card-scroll">
+            <div class="bet-card">
+                <img src="./img/album02.svg" class="card-img">
+                <h3 class="title" style="color: white;">Vanishing Cats</h3>
+                <p class="artist" style="color: white;">Owell Mood</p>
+
+                <div class="bet-controls">
+                    <button class="minus">–</button>
+                    <div class="bet-point">
+                        <img src="./img/mini_coin.svg">
+                        <span style="color: white;">250</span>
+                    </div>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+
+            <div class="bet-card">
+                <img src="./img/album01.svg" class="card-img">
+                <h3 class="title" style="color: white;">NEXX</h3>
+                <p class="artist" style="color: white;">Unknown</p>
+                <div class="bet-controls">
+                    <button class="minus">–</button>
+                    <div class="bet-point">
+                        <img src="./img/mini_coin.svg">
+                        <span style="color: white;">200</span>
+                    </div>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+
+            <div class="bet-card">
+                <img src="./img/album03.svg" class="card-img">
+                <h3 class="title" style="color: white;">Baby Star</h3>
+                <p class="artist" style="color: white;">Heylo</p>
+                <div class="bet-controls">
+                    <button class="minus">–</button>
+                    <div class="bet-point">
+                        <img src="./img/mini_coin.svg">
+                        <span style="color: white;">310</span>
+                    </div>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+
+            <div class="bet-card">
+                <img src="./img/album02.svg" class="card-img">
+                <h3 class="title" style="color: white;">Baby Moon</h3>
+                <p class="artist" style="color: white;">Haylo</p>
+                <div class="bet-controls">
+                    <button class="minus">–</button>
+                    <div class="bet-point">
+                        <img src="./img/mini_coin.svg">
+                        <span style="color: white;">300</span>
+                    </div>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+        </div>
+
+        <p class="swipe-guide" style="color: white; font-size: 16px;">카드를 위로 스와이프 해 음악에 배팅하세요!</p>
+        <p class="bet-history" style="font-size: 12px;" onclick="window.location.href='./chart.html'">배팅 현황></p>
+
+        <div class="nav_bar">
+            <div class="bars">
+                <img src="./img/nav_bar_mypage.svg" onclick="window.location.href='./mypage.html'" alt="">
+                <img src="./img/home_indicator.svg" style="margin: 0;" class="real_bar" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="popup-overlay">
+        <img src="./img/popup_coinbeting.svg" style="width: 362px;" class="popup-img">
+    </div>
+
+<script src="./randing.js"></script>
+<!-- <script>
+    document.querySelector(".shop-btn").addEventListener("click", () => {
+        window.location.href = "store.html";   // 이동할 페이지 경로
+    });
+    </script> -->
+</body>
+</html>

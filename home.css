@@ -1,0 +1,497 @@
+body {
+    width: 402px;
+    color: white;
+    font-family: Pretendard, sans-serif;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+.div {
+  	width: 100%;
+  	height: 874px;
+  	position: relative;
+  	background-color: #191919;
+  	overflow: hidden;
+  	font-family: Pretendard;
+}
+.div2 {
+  	position: absolute;
+  	top: 606.09px;
+  	left: 20px;
+  	font-weight: 600;
+}
+.div3 {
+  	position: absolute;
+  	top: 757.59px;
+  	left: 20px;
+  	font-weight: 600;
+}
+.div4 {
+  	position: absolute;
+  	top: 642.34px;
+  	left: 20px;
+  	font-weight: 600;
+}
+.div5 {
+  	position: absolute;
+  	top: 793.83px;
+  	left: 20px;
+  	font-weight: 600;
+}
+.div6 {
+  	position: absolute;
+  	top: 606.09px;
+  	left: 219.49px;
+  	font-weight: 600;
+}
+.div7 {
+  	position: absolute;
+  	top: 757.59px;
+  	left: 219.49px;
+  	font-weight: 600;
+}
+.div8 {
+  	position: absolute;
+  	top: 642.34px;
+  	left: 219.49px;
+  	font-weight: 600;
+}
+.div9 {
+  	position: absolute;
+  	top: 793.83px;
+  	left: 219.49px;
+  	font-weight: 600;
+}
+.div10 {
+  	position: absolute;
+  	top: 573.84px;
+  	left: 20px;
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: #8a8a8a;
+}
+.div11 {
+  	position: absolute;
+  	top: 725.34px;
+  	left: 20px;
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: #8a8a8a;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 174.98px;
+  	left: 20px;
+  	width: 362px;
+  	height: 157.4px;
+  	font-size: 20px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 12px;
+  	background-color: #303030;
+  	width: 362px;
+  	height: 157.4px;
+}
+.b {
+  	position: absolute;
+  	top: 17.9px;
+  	left: 23.57px;
+}
+.div12 {
+  	position: absolute;
+  	top: 59.72px;
+  	left: 38.42px;
+  	font-weight: 600;
+}
+.div13 {
+  	position: absolute;
+  	top: 59.72px;
+  	left: 208.84px;
+  	font-weight: 600;
+}
+.div14 {
+  	position: absolute;
+  	top: 59.72px;
+  	left: 277.61px;
+  	font-weight: 600;
+}
+.red {
+  	position: absolute;
+  	top: 59.72px;
+  	left: 108.32px;
+  	font-weight: 600;
+}
+.div15 {
+  	position: absolute;
+  	top: 134.61px;
+  	left: 112.07px;
+  	font-size: 10px;
+  	color: rgba(255, 255, 255, 0.65);
+}
+.span {
+  	color: rgba(255, 255, 255, 0.8);
+}
+.level {
+  	position: absolute;
+  	top: 30px;
+  	left: 30.42px;
+  	font-size: 10px;
+  	color: rgba(217, 217, 217, 0.6);
+}
+.total-score {
+  	position: absolute;
+  	top: 87.28px;
+  	left: 188.84px;
+  	font-size: 10px;
+  	color: rgba(217, 217, 217, 0.6);
+}
+.ranked {
+  	position: absolute;
+  	top: 87.28px;
+  	left: 290.11px;
+  	font-size: 10px;
+  	color: rgba(217, 217, 217, 0.6);
+}
+.group-item {
+  	position: absolute;
+  	top: 119.6px;
+  	left: 18.92px;
+  	border-radius: 5.35px;
+  	background-color: #c8c8c8;
+  	width: 324.2px;
+  	height: 8.1px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 119.6px;
+  	left: 18.92px;
+  	border-radius: 5.35px;
+  	background-color: #ff0078;
+  	width: 49px;
+  	height: 8.1px;
+}
+.vector-icon {
+  	position: absolute;
+  	top: 51.51px;
+  	left: 78.89px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 54.4px;
+}
+.div-group-child {
+  	position: absolute;
+  	top: 51.51px;
+  	left: 175.45px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 54.4px;
+}
+.group-child2 {
+  	position: absolute;
+  	top: 51.51px;
+  	left: 259.83px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 54.4px;
+}
+.help-circle-icon {
+  	position: absolute;
+  	top: 30px;
+  	left: 140.13px;
+  	width: 10px;
+  	height: 10px;
+}
+.league {
+  	position: absolute;
+  	top: 87.28px;
+  	left: 105.13px;
+  	font-size: 10px;
+  	color: rgba(217, 217, 217, 0.6);
+}
+.child {
+  	position: absolute;
+  	top: 85px;
+  	left: 20px;
+  	border-radius: 50%;
+  	background-color: #c8c8c8;
+  	width: 58px;
+  	height: 58px;
+}
+.div-b {
+  	position: absolute;
+  	top: 90.49px;
+  	left: 87.15px;
+  	font-size: 20px;
+}
+.id {
+  	position: absolute;
+  	top: 118.49px;
+  	left: 87.15px;
+  	font-weight: 600;
+  	color: #4a4a4a;
+}
+.item {
+  	position: absolute;
+  	top: 541.84px;
+  	left: 20px;
+  	max-height: 100%;
+  	width: 362px;
+}
+.inner {
+  	position: absolute;
+  	top: 693.34px;
+  	left: 20px;
+  	max-height: 100%;
+  	width: 362px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 352.41px;
+  	left: 20px;
+  	width: 362px;
+  	height: 157.4px;
+  	font-size: 8px;
+  	color: rgba(255, 255, 255, 0.65);
+}
+.group-child3 {
+  	position: absolute;
+  	top: 92.96px;
+  	left: 33.57px;
+  	max-height: 100%;
+  	width: 299px;
+}
+.b2 {
+  	position: absolute;
+  	top: 17.83px;
+  	left: 23.57px;
+  	font-size: 20px;
+  	color: #f9f9f9;
+}
+.div16 {
+  	position: absolute;
+  	top: 45.83px;
+  	left: 23.57px;
+  	font-size: 10px;
+}
+.ellipse-div {
+  	position: absolute;
+  	top: 82.96px;
+  	left: 23.57px;
+  	border-radius: 50%;
+  	background-color: #ff0078;
+  	width: 20px;
+  	height: 20px;
+}
+.group-child4 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 76.08px;
+  	border-radius: 4px;
+  	background-color: #ff0078;
+  	border: 0.5px solid #ccc;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.group-child5 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 125.09px;
+  	border-radius: 4px;
+  	background-color: #2f2f2f;
+  	border: 0.5px solid #b6b6b6;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.group-child6 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 170.61px;
+  	border-radius: 4px;
+  	background-color: #2f2f2f;
+  	border: 0.5px solid #b6b6b6;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.group-child7 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 219.13px;
+  	border-radius: 4px;
+  	background-color: #2f2f2f;
+  	border: 0.5px solid #b6b6b6;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.group-child8 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 270.63px;
+  	border-radius: 4px;
+  	background-color: #2f2f2f;
+  	border: 0.5px solid #b6b6b6;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.group-child9 {
+  	position: absolute;
+  	top: 83.96px;
+  	left: 322.12px;
+  	border-radius: 4px;
+  	background-color: #2f2f2f;
+  	border: 0.5px solid #b6b6b6;
+  	box-sizing: border-box;
+  	width: 18px;
+  	height: 18px;
+}
+.div17 {
+  	position: absolute;
+  	top: 87.96px;
+  	left: 126.59px;
+}
+.div18 {
+  	position: absolute;
+  	top: 87.96px;
+  	left: 172.11px;
+}
+.div19 {
+  	position: absolute;
+  	top: 87.96px;
+  	left: 220.63px;
+}
+.div20 {
+  	position: absolute;
+  	top: 87.96px;
+  	left: 272.13px;
+}
+.div21 {
+  	position: absolute;
+  	top: 87.96px;
+  	left: 323.62px;
+}
+.group-child10 {
+  	position: absolute;
+  	top: 88.66px;
+  	left: 79.52px;
+  	width: 11.1px;
+  	height: 8.6px;
+}
+.group-child11 {
+  	position: absolute;
+  	top: 88.66px;
+  	left: 28.01px;
+  	width: 11.1px;
+  	height: 8.6px;
+}
+.claim-wrapper {
+  	position: absolute;
+  	top: 117.33px;
+  	left: 24px;
+  	border-radius: 30px;
+  	background-color: #ff0078;
+  	width: 316px;
+  	height: 24px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 132px;
+  	box-sizing: border-box;
+  	font-size: 12px;
+  	color: #fff;
+  	font-family: Inter;
+}
+.claim {
+  	position: relative;
+}
+.x-icon {
+  	position: absolute;
+  	top: 25px;
+  	left: 354px;
+  	width: 28px;
+  	height: 28px;
+  	object-fit: cover;
+}
+
+.league-icon {
+    position: absolute;
+    top: 95px;
+    left: 147px;
+    width: 14px; 
+    height: 17px;
+}
+
+.league-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_bar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 402px;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+
+    z-index: 1000;
+}
+
+.rank-wrapper {
+    position: absolute;
+    top: 59px;        /* 기존 Moderato 위치에 맞춰 조정 가능 */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;         /* 위아래 간격 */
+    width: 100%;
+}
+
+/* Moderato */
+.rank-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.level-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.level-text {
+    font-size: 10px;
+    color: rgba(217, 217, 217, 0.6);
+}
+
+.help-circle-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.grey_line {
+    width: 362px;
+    margin-top: 540px;
+    border: 0.8px solid rgba(255,255,255,0.1);
+}
+
+.grey_line2 {
+    width: 362px;
+    margin-top: 150px;
+    border: 0.8px solid rgba(255,255,255,0.1);
+}

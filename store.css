@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    scrollbar-gutter: stable;
+
+    -ms-overflow-style: none;
+    }
+    ::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 402px;
+    height: 874px;
+    color: white;
+    font-family: Pretendard, sans-serif;
+    margin: 0 auto;
+}
